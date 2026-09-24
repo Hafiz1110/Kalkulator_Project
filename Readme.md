@@ -7,7 +7,6 @@ Repository ini berisi proyek kolaborasi pengembangan perangkat lunak yang dikerj
 
 ## Latar Belakang
 
-
 Perhitungan matematika merupakan kebutuhan mendasar yang sering ditemui dalam aktivitas sehari-hari, baik untuk keperluan akademis maupun pengerjaan tugas. Seiring dengan perkembangan teknologi, keberadaan alat bantu hitung yang praktis, cepat, dan presisi menjadi sangat penting untuk mendukung efisiensi kerja.
 
 Proyek **Web Kalkulator** ini dikembangkan sebagai bentuk pemenuhan tugas pada mata pelajaran kejuruan. Melalui proyek ini, kami mempraktikkan secara langsung alur pengembangan perangkat lunak berbasis industri, mulai dari penerapannya menggunakan metode **Agile (Scrum)**, kolaborasi tim menggunakan *Version Control System* (Git/GitHub), hingga pengerjaan teknis *front-end* dan *back-end*.
