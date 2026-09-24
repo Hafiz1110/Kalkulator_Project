@@ -19,7 +19,8 @@ Repository ini berisi proyek kolaborasi pengembangan perangkat lunak yang dikerj
 ## Tampilan Website
 
 <img width="834" height="582" alt="25eb1ca9-3f23-48ae-af59-dcba96c62cb0" src="https://github.com/user-attachments/assets/23f32443-6117-49e7-995d-1cff2f9aadc2" />
-<img width="834" height="582" alt="25eb1ca9-3f23-48ae-af59-dcba96c62cb0" src="https://github.com/user-attachments/assets/3ce5ca70-1e09-4cfa-82f7-9d1b2fccbe76" />
+<img width="824" height="570" alt="70feddbc-9849-4974-9dbc-7da39c9c59fe" src="https://github.com/user-attachments/assets/8100f054-2320-470a-b673-cf6a958bbba0" />
+
 
 
 
