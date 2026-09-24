@@ -1,112 +1,74 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <span>calculator</span>
+      </div>
+      <div class="top-actions">
+        <button class="icon-button" aria-label="theme">✦</button>
+        <button class="icon-button" aria-label="options">◌</button>
+      </div>
+    </div>
 
-<body>
+    <main class="calculator-shell">
+      <div class="display" id="display">0</div>
 
-    <nav class="navbar">
-        <div class="logo">◈ calculator</div>
+      <div class="keypad" aria-label="calculator keypad">
+        <button class="key function">2nd</button>
+        <button class="key function">n</button>
+        <button class="key function">e</button>
+        <button class="key function">AC</button>
+        <button class="key function">x²</button>
+        <button class="key function">1/x</button>
+        <button class="key function">|x|</button>
+        <button class="key function">exp</button>
 
-        <div class="nav-right">
-            <button id="historyBtn">◷</button>
-            <button id="themeBtn">☀</button>
-        </div>
-    </nav>
+        <button class="key function">mod</button>
+        <button class="key function">X</button>
+        <button class="key function">(</button>
+        <button class="key function">)</button>
+        <button class="key function">n!</button>
+        <button class="key function">xʸ</button>
+        <button class="key function">sin</button>
+        <button class="key function">cos</button>
 
+        <button class="key function">tan</button>
+        <button class="key function">log</button>
+        <button class="key function">⌫</button>
+        <button class="key function">^</button>
+        <button class="key function">÷</button>
+        <button class="key function">%</button>
+        <button class="key operator">×</button>
 
-    
-    <main class="calculator-page">
+        <button class="key operator">−</button>
+        <button class="key number">π</button>
+        <button class="key number">7</button>
+        <button class="key number">8</button>
+        <button class="key number">9</button>
+        <button class="key number">4</button>
+        <button class="key number">5</button>
+        <button class="key number">6</button>
 
-        <div class="display">
-            <div class="expression" id="expression"></div>
-            <div class="result" id="result">0</div>
-        </div>
+        <button class="key operator">+</button>
+        <button class="key number">1</button>
+        <button class="key number">2</button>
+        <button class="key number">3</button>
+        <button class="key function">AC</button>
+        <button class="key number">0</button>
+        <button class="key number">.</button>
 
-        <div class="buttons">
-
-            <button data-value="2nd">2nd</button>
-            <button data-value="n">n</button>
-            <button data-value="e">e</button>
-            <button data-value="AC">AC</button>
-            <button data-value="x^2">x^2</button>
-            <button data-value="1/x">1/x</button>
-            <button data-value="IxI">IxI</button>
-            <button data-value="exp">exp</button>
-            <button data-value="mod">mod</button>
-            <button data-value="X">X</button>
-            <button data-value="(">(</button>
-            <button data-value=")">)</button>
-            <button data-value="n!">n!</button>
-            <button data-value="x^y">x^y</button>
-            <button data-value="sin">sin</button>
-            <button data-value="cos">cos</button>
-            <button data-value="tan">tan</button>
-            <button data-value="log">log</button>
-            <button data-value="backspace">⌫</button>
-            <button data-value="sqrt">√</button>
-            <button data-value="^">^</button>
-            <button data-value="/">÷</button>
-            <button data-value="%">%</button>
-            <button data-value="*">×</button>
-            <button data-value="-">-</button>
-            <button data-value="π">π</button>
-            <button data-value="7">7</button>
-            <button data-value="8">8</button>
-            <button data-value="9">9</button>
-
-            <button data-value="4">4</button>
-            <button data-value="5">5</button>
-            <button data-value="6">6</button>
-            <button data-value="+">+</button>
-            <button data-value="1">1</button>
-            <button data-value="2">2</button>
-            <button data-value="3">3</button>
-
-            <button data-value="AC">AC</button>
-            <button data-value="0">0</button>
-            <button data-value=".">.</button>
-            <button data-value="00">00</button>
-            <button class="equal" data-value="=">=</button>
-
-        </div>
-
+        <button class="key equals">=</button>
+      </div>
     </main>
 
-
-    <section class="history-page" id="historyPage">
-
-        <div class="history-header">
-
-            <button id="backBtn">←</button>
-
-            <div>
-                <h2>Calculator & History</h2>
-                <p>Riwayat perhitungan</p>
-            </div>
-
-            <button class="clear-history" id="clearHistory">
-                CLEAR ALL
-            </button>
-
-        </div>
-
-        <input
-            type="text"
-            id="searchHistory"
-            placeholder="🔍 Cari riwayat..."
-        >
-
-        <div id="historyList"></div>
-
-    </section>
-
-
-    <script src="./main.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
