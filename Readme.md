@@ -1,6 +1,21 @@
-# Tugas Kelompok Git
+# Kalkulator web based
+
 
 Repository ini berisi proyek kolaborasi pengembangan perangkat lunak yang dikerjakan secara tim menggunakan alur kerja *Version Control System* (Git/GitHub).
+---
+
+
+## Latar Belakang
+
+
+Perhitungan matematika merupakan kebutuhan mendasar yang sering ditemui dalam aktivitas sehari-hari, baik untuk keperluan akademis maupun pengerjaan tugas. Seiring dengan perkembangan teknologi, keberadaan alat bantu hitung yang praktis, cepat, dan presisi menjadi sangat penting untuk mendukung efisiensi kerja.
+
+Proyek **Web Kalkulator** ini dikembangkan sebagai bentuk pemenuhan tugas pada mata pelajaran kejuruan. Melalui proyek ini, kami mempraktikkan secara langsung alur pengembangan perangkat lunak berbasis industri, mulai dari penerapannya menggunakan metode **Agile (Scrum)**, kolaborasi tim menggunakan *Version Control System* (Git/GitHub), hingga pengerjaan teknis *front-end* dan *back-end*.
+
+Selain untuk memenuhi capaian pembelajaran kejuruan, aplikasi ini dirancang agar benar-benar fungsional dan nyaman digunakan. Web Kalkulator ini mampu menangani operasi matematika dasar hingga lanjutan, serta dilengkapi fitur pendukung seperti riwayat perhitungan (*history*) dan penyesuaian tema (*Dark/Light Mode*) yang dapat diakses secara instan melalui peramban browser di berbagai perangkat.
+
+
+
 
 ---
 
@@ -44,4 +59,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal k
 1. **Clone Repository**
    ```bash
    git clone https://github.com/Hafiz1110/Kalkulator_Project.git
+
+2. Lalu jalankan melalui local server   
+
+   
    
