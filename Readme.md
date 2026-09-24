@@ -36,6 +36,13 @@ https://www.figma.com/design/WOouBx1TiDWudaOdW2IHk9/Untitled?node-id=0-1&t=YWZ6a
 
 ---
 
+## Halaman Yang Tersedia
+
+- Tampilan Main yaitu kalkulator
+- History perhitungan yang dihapus
+
+---
+
 ## Tampilan Website
 
 ### Dark Mode
