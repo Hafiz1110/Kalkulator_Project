@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <span>calculator</span>
+      </div>
+      <div class="top-actions">
+        <button type="button" class="icon-button" data-action="theme" aria-label="theme">✦</button>
+        <button type="button" class="icon-button" data-action="history" aria-label="history">◌</button>
+      </div>
+    </div>
+
+    <main class="calculator-screen active" id="calculatorScreen">
+      <div class="calculator-shell">
+        <div class="display" id="display">0</div>
+
+        <div class="keypad" aria-label="calculator keypad">
+          <button class="key function">2nd</button>
+          <button class="key function">n</button>
+          <button class="key function">e</button>
+          <button class="key function">AC</button>
+          <button class="key function">x²</button>
+          <button class="key function">1/x</button>
+          <button class="key function">|x|</button>
+          <button class="key function">exp</button>
+
+          <button class="key function">mod</button>
+          <button class="key function">X</button>
+          <button class="key function">(</button>
+          <button class="key function">)</button>
+          <button class="key function">n!</button>
+          <button class="key function">xʸ</button>
+          <button class="key function">sin</button>
+          <button class="key function">cos</button>
+
+          <button class="key function">tan</button>
+          <button class="key function">log</button>
+          <button class="key function">⌫</button>
+          <button class="key function">^</button>
+          <button class="key function">÷</button>
+          <button class="key function">%</button>
+          <button class="key operator">×</button>
+
+          <button class="key operator">−</button>
+          <button class="key number">π</button>
+          <button class="key number">7</button>
+          <button class="key number">8</button>
+          <button class="key number">9</button>
+          <button class="key number">4</button>
+          <button class="key number">5</button>
+          <button class="key number">6</button>
+
+          <button class="key operator">+</button>
+          <button class="key number">1</button>
+          <button class="key number">2</button>
+          <button class="key number">3</button>
+          <button class="key function">AC</button>
+          <button class="key number">0</button>
+          <button class="key number">.</button>
+
+          <button class="key equals">=</button>
+        </div>
+      </div>
+    </main>
+
+    <main class="history-page hidden" id="historyScreen">
+      <header class="history-header">
+        <button type="button" class="back-button" aria-label="Kembali">←</button>
+        <h1>Calculator &amp; History</h1>
+        <button type="button" class="clear-all-button">CLEAR ALL</button>
+      </header>
+
+      <div class="search-box" aria-label="Cari riwayat">
+        <span class="search-icon">⌕</span>
+        <input type="text" placeholder="Cari riwayat..." />
+      </div>
+
+      <div class="history-empty" aria-live="polite">
+        <p>Belum ada riwayat.</p>
+      </div>
+
+      <ul class="history-list" hidden></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
